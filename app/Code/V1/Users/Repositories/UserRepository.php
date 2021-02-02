@@ -5,7 +5,7 @@ namespace App\Code\V1\Users\Repositories;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Collection;
 
-final class UserRepository
+class UserRepository
 {
     public function getUserByIdAndEmail(int $id, ?string $email): Collection
     {
