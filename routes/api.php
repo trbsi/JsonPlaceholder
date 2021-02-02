@@ -21,4 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-require_once 'api/v1/routes.php';
+require 'api/v1/routes.php';
