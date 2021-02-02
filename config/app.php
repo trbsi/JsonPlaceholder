@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        App\Providers\Code\Users\ExternalUserProvider::class,
+        App\Providers\Code\Posts\ExternalPostProvider::class,
+        App\Providers\Code\Comments\ExternalCommentProvider::class,
     ],
 
     /*
